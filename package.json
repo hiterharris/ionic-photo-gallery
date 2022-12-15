@@ -8,6 +8,7 @@
     "@capacitor/core": "4.6.1",
     "@capacitor/filesystem": "^4.1.4",
     "@capacitor/haptics": "4.1.0",
+    "@capacitor/ios": "4.6.1",
     "@capacitor/keyboard": "4.1.0",
     "@capacitor/preferences": "^4.0.2",
     "@capacitor/status-bar": "4.1.1",
@@ -49,7 +50,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cap": "ionic build && ionic cap copy && ionic cap sync"
   },
   "eslintConfig": {
     "extends": [
